@@ -6,6 +6,11 @@
     text-decoration: none;
     list-style: none;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+/* header */
 .header{
     position: fixed;
     top: 0;
@@ -40,10 +45,12 @@
     transition: 0.3s ease;
 }
 .navbar a:hover,
-.navbar a.active{
+/*.navbar a.active{
     color: rgb(127, 195, 255);
     border-bottom: 3px solid rgb(127, 195, 255);
-}
+}*/
+
+/* contact button */
 .contact{
     padding: 10px 28px;
     background-color: white;
@@ -60,7 +67,9 @@
     box-shadow: 0 0 25px rgb(127, 195, 255);
     color: white;
 }
-.home{
+
+/* home menu */
+#home{
     width: 100%;
     min-height: 100vh;
     background: rbg(241, 241, 241);
@@ -86,6 +95,7 @@
 .home-content p{
     font-size: 13px;
     margin: 25px 0 30px;
+    align-items: center;
 }
 .btn-box{
     width: 345px;
@@ -129,8 +139,10 @@ border: 2px solid black;
 .img-box img{
     border-radius: 50%;
 }
+
+/* sidebar scroll */
 ::-webkit-scrollbar{
-    width: 15px;
+    width: 12px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: rgb(127, 195, 255);
@@ -140,7 +152,8 @@ border: 2px solid black;
     width: 50px;
 }
 
-.about{
+/* about me*/
+#about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +170,7 @@ border: 2px solid black;
 .about-content h2{
     text-align: left;
     color: white;
-    font-size: 42px;
+    font-size: 30px;
 }
 .about-content h3{
     font-size: 62px;
@@ -165,11 +178,12 @@ border: 2px solid black;
 }
 .about-content p{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin: 2em 0 3em;
 }
 
-.contact-form h2{
+/* contact form */
+#contact-form h2{
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
@@ -198,6 +212,8 @@ border: 2px solid black;
     margin: 1rem 0;
     resize: none;
 }
+
+/* footer */
 .footer{
     position: relative;
     bottom: 0;
@@ -205,6 +221,8 @@ border: 2px solid black;
     padding: 40px 0;
     background-color: black;
 }
+
+/* social media */
 .footer .social{
     text-align: center;
     padding-bottom: 25px;
