@@ -183,7 +183,7 @@ border: 2px solid black;
 }
 
 /* contact form */
-#contact-form h2{
+.contact-form h2{
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
