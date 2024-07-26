@@ -204,6 +204,7 @@ main.row{
     align-items: center;
     padding: 10% 6%;
     gap: 10em;
+    
 
     .col header.title{
         font-family: helvetica;
