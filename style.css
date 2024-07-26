@@ -137,6 +137,8 @@ border: 2px solid black;
     border: 2px solid rgb(127, 195, 255);
 }
 .img-box img{
+    width: 500px;
+    height: 375px;
     border-radius: 50%;
 }
 
